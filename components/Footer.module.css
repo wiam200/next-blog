@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  background-color: var(--color-grey-900);
+  color: var(--color-grey-300);
+  padding: 12px var(--size-8);
+  gap: 5rem;
+  justify-content: center;
+}
+.footer ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+}
+.footer .first {
+  display: flex;
+  gap: 4rem;
+}
+
+.footer .right {
+  text-align: left;
+}

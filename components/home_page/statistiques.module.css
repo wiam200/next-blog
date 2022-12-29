@@ -1,0 +1,10 @@
+.container {
+  width: 100%;
+  text-align: center;
+  padding: var(--size-16);
+  background-color: var(--color-grey-300);
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+}

@@ -1,0 +1,53 @@
+.post {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: var(--color-grey-800);
+  text-align: center;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.post:hover {
+  /* scale: 1.05; */
+  transition: all;
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+.post a {
+  color: var(--color-grey-100);
+}
+
+.image {
+  width: 100%;
+  max-height: 20rem;
+  overflow: hidden;
+}
+
+.image img {
+  object-fit: cover;
+}
+
+.content {
+  padding: var(--size-8);
+}
+
+.content h3 {
+  margin: var(--size-4) 0;
+  font-size: var(--size-6);
+}
+
+.content time {
+  color: var(--color-grey-300);
+  font-weight: bold;
+  width: 100%;
+  height: 3rem;
+  display: block;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: var(--color-grey-700);
+}
+
+.content p {
+  line-height: var(--size-8);
+  text-align: justify;
+  margin-top: 2rem;
+}

@@ -1,0 +1,10 @@
+.cards {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+
+  padding: var(--size-8) 10rem;
+  /* background-color: red; */
+  /* display: flex; */
+  gap: 2rem;
+}

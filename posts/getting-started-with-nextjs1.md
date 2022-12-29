@@ -1,9 +1,9 @@
 ---
-title: "getting started with nextJs"
+title: "getting started with nextJs2"
 date: "2022-03-01"
 excerpt: it is a small description of the post i just published a few hours ago is a small description of the post i just published a few
 isFeatured: true
-image: getting-started-nextjs.png
+image: getting-started-nextjs1.png
 ---
 
 # this is a title
