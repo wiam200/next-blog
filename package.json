@@ -21,19 +21,19 @@
     "react-markdown": "^5.0.3",
     "react-syntax-highlighter": "^15.5.0"
   },
-  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "description": "",
   "main": "next.config.js",
   "directories": {
     "lib": "lib"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mschwarzmueller/nextjs-course-code.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mschwarzmueller/nextjs-course-code/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/mschwarzmueller/nextjs-course-code#readme"
+  "homepage": ""
 }
