@@ -22,13 +22,12 @@ async function handler(req, res) {
     };
 
     let client;
+    const connectionString = `mongodb+srv://${process.env.mongodb_username}:${process.env.mongodb_password}@${process.env.mongodb_clustername}.lvgzrxw.mongodb.net/?retryWrites=true&w=majority`;
+
     try {
-      client = await MongoClient.connect(
-        "mongodb+srv://wiam07022001:hirYwxnCdfhlMsKG@cluster0.lvgzrxw.mongodb.net/?retryWrites=true&w=majority",
-        { useNewUrlParser: true, useUnifiedTopology: true }
-      );
+      client = await MongoClient.connect(connectionString);
     } catch (error) {
-      res.status(500).json({ message: "could not connect to database" });
+      res.status(500).json({ message: "Could not connect to database." });
       return;
     }
 
