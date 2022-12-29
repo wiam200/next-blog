@@ -19,6 +19,15 @@ function mainNavBar() {
           <li>
             <Link href="/contact">Contact</Link>
           </li>
+          <li>
+            <Link href="/profile">Profile</Link>
+          </li>
+          <li>
+            <Link href="/auth">Login</Link>
+          </li>
+          <li>
+            <button>Logout</button>
+          </li>
         </ul>
       </nav>
     </header>
