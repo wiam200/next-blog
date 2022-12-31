@@ -7,6 +7,7 @@ module.exports = (phase) => {
         mongodb_username: "mehalwiam07",
         mongodb_password: "E6fqb9cUVJ9XrXQS",
         mongodb_clustername: "cluster0",
+        NEXTAUTH_SECRET: "prj_P1Qa6K8GLNckaIHbCoYmYJL575hT",
         // mongodb_database: "test",
       },
     };
@@ -17,6 +18,8 @@ module.exports = (phase) => {
       mongodb_username: "mehalwiam07",
       mongodb_password: "E6fqb9cUVJ9XrXQS",
       mongodb_clustername: "cluster0",
+      NEXTAUTH_SECRET: "prj_P1Qa6K8GLNckaIHbCoYmYJL575hT",
+
       // mongodb_database: "my-site",
     },
   };
