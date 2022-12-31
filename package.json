@@ -33,8 +33,8 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/wiam200/next-blog.git"
   },
-  "author": "",
+  "author": "wiam200",
   "license": "ISC"
 }
